@@ -1,2 +1,4 @@
-package beams.service;public class Dummy {
+package beams.service;
+
+public class Dummy {
 }
