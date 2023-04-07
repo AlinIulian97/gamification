@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6815c3e-2524-4422-b8ec-7022e4e9f14b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/enums/EnumGender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -81,6 +94,36 @@
       <option name="presentableId" value="Default" />
       <updated>1680872465368</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1680873734531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680873734531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.Optional" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

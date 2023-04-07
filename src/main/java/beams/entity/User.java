@@ -19,4 +19,7 @@ public class User {
     private String userName;
     @Column
     private String password;
+
+    @OneToOne(mappedBy = "user")
+    private Player player;
 }
