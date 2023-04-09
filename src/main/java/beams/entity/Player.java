@@ -1,6 +1,8 @@
 package beams.entity;
 
 import beams.entity.enums.EnumGender;
+import beams.entity.enums.EnumRank;
+import jdk.jfr.Name;
 import lombok.*;
 
 import javax.persistence.*;
@@ -19,8 +21,17 @@ public class Player {
     @Column
     private String name;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private EnumGender gender;
+
+    @Enumerated(EnumType.STRING )
+    private EnumRank playerRank;
+
+    @Column
+    private int score;
+
+    @ManyToOne(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    private Badges badges ;
 
     @OneToOne(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
     private User user;

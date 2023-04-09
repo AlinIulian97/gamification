@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6815c3e-2524-4422-b8ec-7022e4e9f14b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/enums/EnumGender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/enums/EnumRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/BadgesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/TokensMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserUpdatePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/BadgesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/QuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/TokensRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="beams.repository" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680873734531</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CREATE_USER_CHECK_IF_IS_NEW_USER">
+      <created>1680884131742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680884131742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="CREATE_USER_CHECK_IF_IS_NEW_USER" />
+    <option name="LAST_COMMIT_MESSAGE" value="CREATE_USER_CHECK_IF_IS_NEW_USER" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
