@@ -1,9 +1,6 @@
 package beams.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -14,7 +11,8 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Badges {
+@Builder
+public class Badge {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -22,7 +20,7 @@ public class Badges {
     @Column
     private String name;
 
-    @OneToMany(mappedBy = "badges")
+    @OneToMany(mappedBy = "badge")
     private final List<Player> players = new ArrayList<>();
 
 }

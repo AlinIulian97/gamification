@@ -2,10 +2,11 @@ package beams.entity;
 
 import beams.entity.enums.EnumGender;
 import beams.entity.enums.EnumRank;
-import jdk.jfr.Name;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -24,16 +25,19 @@ public class Player {
     @Enumerated(EnumType.STRING)
     private EnumGender gender;
 
-    @Enumerated(EnumType.STRING )
+    @Enumerated(EnumType.STRING)
     private EnumRank playerRank;
 
     @Column
     private int score;
 
-    @ManyToOne(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
-    private Badges badges ;
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Badge badge;
 
-    @OneToOne(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private User user;
+
+    @OneToMany(cascade = CascadeType.ALL , mappedBy = "player")
+    private final List<Quest> quests = new ArrayList<>();
 
 }

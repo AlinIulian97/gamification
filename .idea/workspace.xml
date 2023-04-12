@@ -5,24 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6815c3e-2524-4422-b8ec-7022e4e9f14b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/enums/EnumRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/BadgesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/TokensMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserUpdatePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/BadgesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/PlayerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/QuestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/repository/TokensRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/QuestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/enums/EnumDifficulty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/BadgeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/badges/BadgeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/badges/BadgeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/badges/BadgeUpdateNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/quest/QuestRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/quest/QuestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/DifficultyUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/BadgeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/QuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/TokensService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Badge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/BadgesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/TokensMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/TokensMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/repository/BadgesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/repository/BadgeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,14 +62,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/IMPROVE/gamification/gamification/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/IMPROVE/gamification/gamification/src/main/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\IMPROVE\gamification\gamification\src\main\java" />
@@ -65,6 +78,9 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="beams.model.tokens" />
+      <recent name="beams.service" />
+      <recent name="beams.controller" />
       <recent name="beams.repository" />
     </key>
   </component>
@@ -111,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680884131742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CRUD_USER_CREATE_AND_MAKE_ENTITY_STRUCTURES">
+      <created>1681042048077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681042048077</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,11 +151,33 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="CREATE_USER_CHECK_IF_IS_NEW_USER" />
-    <option name="LAST_COMMIT_MESSAGE" value="CREATE_USER_CHECK_IF_IS_NEW_USER" />
+    <MESSAGE value="CRUD_USER_CREATE_AND_MAKE_ENTITY_STRUCTURES" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD_USER_CREATE_AND_MAKE_ENTITY_STRUCTURES" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/beams/service/BadgeService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="beams.service.BadgeService" memberName="badgeMapper" />
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
         <PinnedItemInfo parentTag="java.util.Optional" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
