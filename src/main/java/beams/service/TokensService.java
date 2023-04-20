@@ -1,12 +1,8 @@
 package beams.service;
 
-import beams.entity.Badge;
 import beams.entity.Tokens;
 import beams.exception.BusinessException;
 import beams.mapper.TokensMapper;
-import beams.model.badges.BadgeRequest;
-import beams.model.badges.BadgeResponse;
-import beams.model.badges.BadgeUpdateNameResponse;
 import beams.model.tokens.DifficultyUpdate;
 import beams.model.tokens.TokensRequest;
 import beams.model.tokens.TokensResponse;

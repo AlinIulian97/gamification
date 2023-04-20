@@ -9,6 +9,8 @@ import beams.model.user.UserResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
+import java.util.List;
+
 @Mapper
 public interface PlayerMapper {
 
@@ -17,4 +19,6 @@ public interface PlayerMapper {
     @Mapping(target = "userId", source = "user.id")
     @Mapping(target = "badgeId", source = "badge.id")
     PlayerResponse map(Player player);
+
+    List<PlayerResponse> map(List<Player> list);
 }

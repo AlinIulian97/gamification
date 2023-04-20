@@ -22,6 +22,6 @@ public class User {
     @Column
     private String password;
 
-    @OneToOne(mappedBy = "user" , cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "user" , cascade = CascadeType.REMOVE , orphanRemoval = true)
     private Player player;
 }

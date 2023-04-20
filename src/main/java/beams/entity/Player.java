@@ -31,7 +31,7 @@ public class Player {
     @Column
     private int score;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     private Badge badge;
 
     @OneToOne()

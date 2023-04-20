@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6815c3e-2524-4422-b8ec-7022e4e9f14b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/UpdatePlayerName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/quest/UpdateQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/controller/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/controller/PlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/controller/QuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/controller/QuestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/user/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/PlayerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/QuestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/QuestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/TokensService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/TokensService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681290432830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done allmost">
+      <created>1681989647075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681989647075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +146,8 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="CREATE_USER_CHECK_IF_IS_NEW_USER" />
     <MESSAGE value="CRUD_USER_CREATE_AND_MAKE_ENTITY_STRUCTURES" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD_USER_CREATE_AND_MAKE_ENTITY_STRUCTURES" />
+    <MESSAGE value="Done allmost" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done allmost" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
