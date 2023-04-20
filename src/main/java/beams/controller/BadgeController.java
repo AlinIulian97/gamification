@@ -26,8 +26,8 @@ public class BadgeController {
     }
 
     @PatchMapping("/update/{id}")
-    public void updateName(@PathVariable Long id ,@RequestBody BadgeUpdateNameResponse updateName){
-        badgesService.updatePassword(id, updateName);
+    public void updateName(@PathVariable Long id ,@RequestBody BadgeUpdateNameResponse email){
+        badgesService.updatePassword(id, email);
     }
 
     @GetMapping("/badges")

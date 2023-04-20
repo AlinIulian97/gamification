@@ -5,36 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6815c3e-2524-4422-b8ec-7022e4e9f14b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/PlayerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/QuestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/entity/enums/EnumDifficulty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/BadgeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/badges/BadgeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/badges/BadgeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/badges/BadgeUpdateNameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/quest/QuestRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/quest/QuestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/DifficultyUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/BadgeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/QuestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beams/service/TokensService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beams/controller/TokenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Badges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Badge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/controller/BadgeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Quest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/Tokens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/BadgesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/PlayerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/QuestMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/mapper/TokensMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/mapper/TokensMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/player/PlayerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/tokens/TokensResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/beams/repository/BadgesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/repository/BadgeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/model/user/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/model/user/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beams/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681042048077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CRUD_USER_CREATE_AND_MAKE_ENTITY_STRUCTURES">
+      <created>1681290432828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681290432830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

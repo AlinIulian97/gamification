@@ -34,7 +34,8 @@ public class Player {
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Badge badge;
 
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToOne()
+    @JoinColumn(name = "user_id" , unique = true)
     private User user;
 
     @OneToMany(cascade = CascadeType.ALL , mappedBy = "player")

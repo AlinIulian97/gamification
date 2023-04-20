@@ -49,14 +49,14 @@ public class UserService {
         return users
                 .stream()
                 .noneMatch(userResponse
-                        -> userResponse.getUserName().equals(userRequest.getUserName()) &&
+                        -> userResponse.getEmail().equals(userRequest.getEmail()) &&
                         userResponse.getPassword().equals(userRequest.getPassword()));
     }
 
     public Boolean isValidPassword(UserRequest userRequest) {
         String regex = "^[a-zA-Z][\\\\w]{7,29}$";
         String regex1 = "[a-zA-Z]";
-        String userName = userRequest.getUserName();
+        String userName = userRequest.getEmail();
         if (userName.length() < 8 || userName.length() > 30) {
             return false;
         } else if (userName.matches(regex)) {
